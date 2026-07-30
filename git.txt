@@ -1,0 +1,6 @@
+
+make a program and input a number from user or we can input an element from user then input marks and name from user too ?
+1. name of 5 students
+2. marks of 5 students
+3. students with  more marks will print fast
+Q.2.input a string from user and print the frequency of every character
