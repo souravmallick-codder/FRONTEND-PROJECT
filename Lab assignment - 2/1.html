@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Marksheet</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f6f8; padding: 30px; }
+  .sheet { max-width: 650px; margin: auto; background: #fff; padding: 25px 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  h1 { text-align: center; color: #2c3e50; margin-bottom: 5px; }
+  .info { text-align: center; margin-bottom: 20px; color: #555; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { border: 1px solid #999; padding: 10px 12px; text-align: center; }
+  th { background: #2c3e50; color: #fff; }
+  tr:nth-child(even) { background: #f2f2f2; }
+  tfoot td { font-weight: bold; background: #e8eef4; }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <h1>Student Marksheet</h1>
+    <p class="info">Name: <b>sourav mallick</b> &nbsp; | &nbsp; Roll No: <b>48</b> &nbsp; | &nbsp; course: <b>B.tech</b></p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Max Marks</th>
+          <th>Marks Obtained</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>English</td><td>100</td><td>88</td><td>A</td></tr>
+        <tr><td>Mathematics</td><td>100</td><td>92</td><td>A+</td></tr>
+        <tr><td>Physics</td><td>100</td><td>85</td><td>A</td></tr>
+        <tr><td>Chemistry</td><td>100</td><td>79</td><td>B+</td></tr>
+        <tr><td>Computer Science</td><td>100</td><td>95</td><td>A+</td></tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>500</td>
+          <td>439</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td colspan="4">Percentage: 87.8%</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+</html>
