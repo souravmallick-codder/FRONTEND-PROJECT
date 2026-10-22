@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Changer</title>
+</head>
+<body id="page">
+
+    <h2>Theme Changer</h2>
+    <p>Click the button to change the color theme.</p>
+
+    <button onclick="changeTheme()">Change Theme</button>
+
+    <script>
+        let darkMode = false;
+
+        function changeTheme() {
+            let page = document.getElementById("page");
+
+            if (darkMode === false) {
+                page.style.backgroundColor = "black";
+                page.style.color = "white";
+                darkMode = true;
+            } else {
+                page.style.backgroundColor = "white";
+                page.style.color = "black";
+                darkMode = false;
+            }
+        }
+    </script>
+
+</body>
+</html>
